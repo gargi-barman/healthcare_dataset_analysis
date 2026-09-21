@@ -75,7 +75,7 @@ Missing data check: Confirmed zero missing or blank patient names, the one field
 
 Import validation: Reviewed MySQL warnings from the initial load (decimal precision truncation on Billing Amount) and confirmed it was an acceptable, expected rounding to standard currency precision.
 
-## Key Finding
+## Key Findings
 
 Across nearly every dimension analyzed - medical condition, admission type, insurance provider, and gender - patient counts and average billing amounts show remarkably little variation. In a real-world healthcare dataset, conditions like Cancer would be expected to show meaningfully higher billing than Hypertension or Arthritis, and admissions would rarely be this evenly split. This uniformity strongly suggests the dataset was synthetically generated with randomized values, rather than reflecting genuine real-world healthcare cost and utilization patterns.
 
